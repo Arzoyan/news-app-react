@@ -1,0 +1,25 @@
+{
+  "news": [
+    {
+      "id": "1724102350185",
+      "title": "7777",
+      "description": "test description 00034",
+      "image": "http://example.com/image1.jpg",
+      "fibonacci": 5
+    },
+    {
+      "id": "1724102863364",
+      "title": "test title 002",
+      "description": "test description",
+      "image": "http://example.com/image1.jpg",
+      "fibonacci": 3
+    },
+    {
+      "id": "1724102904685",
+      "title": "w56 56 5e",
+      "description": " 0022 long long test description 003245",
+      "image": "http://example.com/image1.jpg",
+      "fibonacci": 1
+    }
+  ]
+}
