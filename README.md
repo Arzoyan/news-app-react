@@ -4,12 +4,6 @@
 
 Using this project you can Adding, Editing , deleting and Searching of News witch you created
 
-## Demo Version
-
-```bash
-$ https://news-app-react-yebp.onrender.com
-```
-
 ## Installation
 
 ```bash
