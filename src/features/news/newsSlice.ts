@@ -36,14 +36,16 @@ const newsSlice = createSlice({
       state.loading = false;
       state.articles = action.payload;
     },
-    addNewsItemRequest(state, action: PayloadAction<NewsArticle>) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    addNewsItemRequest(state, _: PayloadAction<NewsArticle>) {
       state.loading = true;
     },
     addNewsItemSuccess(state, action: PayloadAction<NewsArticle>) {
       state.loading = false;
       state.articles.push(action.payload);
     },
-    updateNewsItemRequest(state, action: PayloadAction<NewsArticle>) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    updateNewsItemRequest(state, _: PayloadAction<NewsArticle>) {
       state.loading = true;
     },
     updateNewsItemSuccess(state, action: PayloadAction<NewsArticle>) {
@@ -53,7 +55,8 @@ const newsSlice = createSlice({
       );
       state.articles = newState;
     },
-    deleteNewsItemRequest(state, action: PayloadAction<string>) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    deleteNewsItemRequest(state, _: PayloadAction<string>) {
       state.loading = true;
     },
     deleteNewsItemSuccess(state, action: PayloadAction<string>) {
@@ -63,7 +66,8 @@ const newsSlice = createSlice({
         (article) => article.id !== action.payload,
       );
     },
-    searchNewsRequest(state, action: PayloadAction<string>) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    searchNewsRequest(state, _: PayloadAction<string>) {
       state.loading = true;
       state.error = null;
     },
